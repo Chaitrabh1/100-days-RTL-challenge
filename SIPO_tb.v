@@ -1,6 +1,6 @@
 `timescale 1ns /1ps
 
-module SISO_tb();
+module SIPO_tb();
 reg data_in,clk;
 wire [0:3]q;
 SIPO dut(.data_in(data_in), .clk(clk), .q(q));
